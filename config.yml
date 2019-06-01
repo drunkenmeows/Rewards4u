@@ -1,0 +1,46 @@
+
+Rewards:
+ - Diamond
+ - Money
+
+#name of reward
+Diamond:
+  SecretCode: NippleBiscuits
+  #Unix epoch date
+  Start: 3423424042
+  End:   3445543465
+  #Reoccur every
+  Reoccur: 1203300
+  #item - id;data/damage;amount
+  #item - id,data/damage;enchant;level;amount
+  items: 
+    - '56;0;10;'
+    - '267;0;Sharpness;3;1'
+  #money to give
+  Money: 1000
+  #group to assign
+  GroupPromote:
+    #users new group
+    Group: CouponLover
+    #forever?
+    Forever: false
+    #Reset in unix epoch time
+    Reset: 35554569  
+  #permissions to set
+  Permssions:
+    #perms to set
+    Perms:
+      - eseentials.hat
+    #permissions for ever?
+    Forever: false
+    #reset in unix epoch time
+    Reset: 345566090
+  #reset date
+  Commands:
+    - nick <name>
+    - townyadmin bonus 10 <name>
+  Done:
+   - 'Rakkeyal'
+   - 'Mugan'
+   - 'Sharkle'
+   - 'SpacemanJ0E'
